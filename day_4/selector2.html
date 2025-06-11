@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector2</title>
+    <style>
+        *{
+            color: blue;
+            background-color: lightyellow;
+        }
+        p {
+            font-size: 16px;
+            font-weight: normal;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid gray; /* This adds a solid border around the element */
+            border-radius: 3px; /* This sets the border radius to 3px for slightly rounded corners */
+            box-sizing: border-box; /* This includes padding and border in the element's total width and height */ 
+        }
+
+        small, div {
+            color: green;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 8px;
+            margin: 4px;
+            border: 1px solid lightgreen; /* This adds a solid border around the element */
+            border-radius: 2px; /* This sets the border radius to 2px for slightly rounded corners */
+            box-sizing: border-box; /* This includes padding and border in the element's total width and height */
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector2</h1>
+    <hr>
+    <h3>universal selector</h3>
+    <p>it selects all elements on the page.</p>
+    <p>it indicates with *</p>
+    <p>it is used to apply styles to all elements.</p>
+    <p>it is not recommended to use it in large projects.</p>
+
+    <hr>
+    <h3>grouping selector</h3>
+    <small>it groups multiple selectors to apply the same styles.</small>
+    <div>it is indicated with a comma (,)</div>
+
+    <hr>
+    <h4>combined selector</h4>
+       <ol>
+        <li>descendent selector</li>
+           <p>it selects elements that are descendants of a specified element.</p>
+           <p>it is indicated with a space between the selectors.</p>
+        <li>child selector</li>
+              <p>it selects elements that are direct children of a specified element.</p>
+              <p>it is indicated with a greater than sign (>) between the selectors.</p>
+        <li>adjacent sibling selector</li>
+                <p>it selects an element that is immediately preceded by a specified element.</p>
+                <p>it is indicated with a plus sign (+) between the selectors.</p>
+        <li>general sibling selector</li>
+                <p>it selects all elements that are siblings of a specified element.</p>
+                <p>it is indicated with a tilde (~) between the selectors.</p>
+       </ol>
+    <hr>
+</body>
+</html>

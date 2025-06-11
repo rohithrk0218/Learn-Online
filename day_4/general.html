@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    
+    <style>
+        div ~ p {
+            color: #ff5733;
+            font-size: 20px;
+        }
+        div ~ small {
+            color: #007bff;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>General Sibling Selector</h1>
+    <hr>
+
+    <div>
+        <small>It selects all elements that are siblings of a specified element.</small>
+        <p>It is indicated with a tilde (~) between the selectors.</p>
+        <p>It selects all matching elements that follow the specified element.</p>
+        <p>It does not select elements that are not siblings.</p>
+        <p>It can be used to apply styles to elements that follow a specific element.</p>
+        <p>It is useful for styling elements that are related but not directly adjacent.</p>
+    </div>
+</body>
+</html>

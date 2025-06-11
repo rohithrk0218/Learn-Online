@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+       <style>
+        div + p {
+            color: #00ff15;
+            font-size: 20px;
+        }
+        div + small {
+            color: blue;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Adjacent Sibling Selector</h1>
+    <hr>
+
+    <div>
+        <small>It selects an element that is immediately preceded by a specified element.</small>
+        <p>It is indicated with a plus sign (+) between the selectors.</p>
+        <p>It only selects the first matching element.</p>
+        <p>It is useful for styling elements that are directly next to each other.</p>
+        <p>It does not select elements that are not immediately adjacent.</p>
+        <p>It can be used to apply styles to elements that follow a specific element.</p>
+    </div>
+
+</body>
+</html>

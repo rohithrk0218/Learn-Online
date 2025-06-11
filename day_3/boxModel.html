@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxModel</title>
+
+    <style>
+
+        h1 {
+            color: blue;
+            background-color: yellow;
+            padding: 20px 25px 30px 35px ; /* This adds padding inside the element */
+            margin: 10px;
+            border: 2px solid black;
+            border-top: 2px solid red; /* This will only apply to the top border */
+            border-bottom: 2px dashed green;
+            box-sizing: border-box; /* This includes padding and border in the element's total width and height */
+            border-radius: 4%; /* This sets the border radius to 0% for sharp corners */
+            width: 300px; /* This sets a fixed width for the element */
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>BOXMODEL</h1>
+
+    <p class="two-2">HTML</p>
+    <p id="one-1">CSS</p>
+    <p class="two-2">JavaScript</p>
+    <p class="two-2">React</p>
+    <p class="two-2">Node.js</p>
+
+    <style>
+
+        #one-1 {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid black;
+            border-radius: 5px; /* This sets the border radius to 5px for rounded corners */
+            width: 95px; /* This sets a fixed width for the element */
+        }
+        .two-2 {
+            color: green;
+            font-size: 18px;
+            font-weight: normal;
+            background-color: lightyellow;
+            padding: 8px;
+            margin: 4px;
+            border: 1px solid gray;
+            border-radius: 3px; /* This sets the border radius to 3px for slightly rounded corners */
+            width: 100px; /* This sets a fixed width for the element */
+        }
+
+    </style>
+
+
+</body>
+</html>

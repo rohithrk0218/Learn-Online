@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descendent selector</title>
+</head>
+<body>
+    <h1>descendent selector</h1>
+    <hr>
+
+    <div>
+        <small>it selects all elements that are descendants of a specified element.</small>
+
+        <p>
+            <small>it is indicated with a space ( ) between the selectors.</small>
+        </p>
+    </div>
+
+    <style>
+        div >small {
+            color: red;
+            font-size: 20px;
+        }
+        div p {
+            color: blue;
+            font-size: 18px;
+        }
+        div p small {
+            color: green;
+            font-size: 16px;
+        }
+    </style>
+</body>
+</html>
