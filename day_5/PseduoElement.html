@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        #p1{
+            background-color: lightblue;
+        }
+        #p1::first-letter {
+            color: red;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        #p1::first-line {
+            color: green;
+            font-weight: bold;
+        }
+        #p2::after {
+            content: "😊😂";
+        }
+        #p2::before {
+            content: "Start: ";
+            color: blue;
+            font-weight: bold;
+        }
+        #p3::selection {
+            background-color: brown;
+        }
+        ::marker {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Element</h1>
+    <hr>
+    <p>
+        Pseudo elements are used to style specific parts of an element. They are not part of the document tree, but they can be styled using CSS.
+    </p>
+    <p>
+        The most common pseudo elements are <code>::before</code> and <code>::after</code>. They allow you to insert content before or after an element's content.  <br>
+    </p> 
+    <hr>
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing</p>  
+    <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt natus sequi, numquam vero ducimus ad in inventore blanditiis unde, aperiam molestias quo aliquid deleniti. Cupiditate mollitia vitae veritatis laboriosam!</p>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+</body>
+</html>
