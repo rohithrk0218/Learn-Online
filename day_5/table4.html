@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Station</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 50px auto;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th[colspan="2"] {
+            border-bottom: none;
+        }
+        th.sub-header {
+            border-top: none;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Weather Station</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Station</th>
+            <th colspan="2">Temperature</th>
+            <th rowspan="2">Humidity</th>
+            <th rowspan="2">Weather</th>
+        </tr>
+        <tr>
+            <th class="sub-header">Max</th>
+            <th class="sub-header">Min</th>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>24</td>
+            <td>19</td>
+            <td>60%</td>
+            <td>Cloudy</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>5</td>
+            <td>-1</td>
+            <td>70%</td>
+            <td>Rainy</td>
+        </tr>
+    </table>
+
+</body>
+</html>
