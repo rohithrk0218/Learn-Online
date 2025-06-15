@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multimedia task</title>
+    <style>
+        img{
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);}
+            audio, video {
+                border: 2px solid black;
+                border-radius: 10px;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            }
+    </style>
+</head>
+<body>
+    <h1>multimedia task</h1>
+    <br>
+    <p>This is a simple task to demonstrate the use of multimedia elements in HTML.</p>
+    <h2>Images</h2>
+    <img src="./image1.webp" alt="Image1" width="600" height="400">
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="./song1.mp3" type="audio/mpeg" controls autoplay muted>
+    </audio>
+    <h2>Video</h2>
+    <video controls width="600" height="400">
+        <source src="./video1.mp4" type="video/mp4" controls autoplay muted poster="./image1.webp">
+
+    </video>
+    <br><br>
+
+    <h2>Embed tag</h2>
+    <img src="./image1.webp" alt="" >
+        <br>
+    <embed src="./song1.mp3" type="" >
+        <br>
+    <embed src="./video1.mp4" type="" >
+</body>
+</html>

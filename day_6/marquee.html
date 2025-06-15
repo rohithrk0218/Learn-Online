@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Task</title>
+
+    <style>
+        marquee {
+            font-size: 20px;
+            color: blue;
+            background-color: lightgray;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        marquee img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Marquee Task</h1>
+    <br>
+    <p>This is a simple task to demonstrate the use of the marquee element in HTML.</p>
+    <!--deleting the default marquee direction is left-->
+    <marquee behavior="scroll" direction="left">This is a scrolling text.</marquee>
+    <marquee behavior="scroll" direction="up">This is an alternate scrolling text.</marquee>
+    <marquee behavior="scroll" direction="right">This is an alternate marquee text.</marquee>
+    <marquee behavior="scroll" direction="down" scrollamount="10">This is a marquee with a scroll amount of 10.</marquee>
+
+    <marquee behavior="scroll" direction="right" scrollamount="20">
+        <img src="./image1.webp" alt="">
+    </marquee>
+        <marquee behavior="slide" direction="right" scrollamount="20">
+        <img src="./image1.webp" alt="">
+    </marquee>
+        <marquee behavior="alternate" direction="right" scrollamount="20">
+        <img src="./image1.webp" alt="">
+    </marquee>
+</body>
+</html>
