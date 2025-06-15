@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        #p1 {
+            background-color: lightblue;
+        }
+        #p1:hover {
+            background-color: blue;
+            color: red;
+            text-decoration: underline;
+            font-size: large;
+        }
+        #p2:focus {
+            outline: 2px solid orange;
+        }
+        #p3:active {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class</h1>
+    <hr>
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt natus sequi, numquam vero ducimus ad in inventore blanditiis unde, aperiam molestias quo aliquid deleniti. Cupiditate mollitia vitae veritatis laboriosam!</p>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <h2>Anchor tags</h2>
+    <p>it is used to navigate within the page or to other pages.</p>
+    <a href="https://www.google.com">google</a>
+    <a href="https://www.facebook.com">facebook</a>
+    <a href="https://www.youtube.com">youtube</a>
+    <a href="https://www.instagram.com">instagram</a> 
+    <br>
+    <a href="table1.html">open</a>
+    <a href="table3.html">open</a>
+
+    <h2>Anchor Tags with Pseudo Classes</h2>
+    <style>
+        a:link {
+            color: blue;
+        }
+        a:visited {
+            color: brown;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: green;
+        }
+    </style>
+    <a href="/day_4/div_span.html">div_span</a>
+    
+</body>
+</html>

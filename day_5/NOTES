@@ -1,0 +1,49 @@
+tables and its tags and its attributes
+
+<table></table>--> used to create a table
+<thead></thead>--> used to create a table header
+<tbody></tbody>--> used to create a table body
+<tfoot></tfoot>--> used to create a table footer
+
+<tr></tr>--> used to create a row in the table
+<td></td>--> used to create a cell in the table
+<th></th>--> used to create a header cell in the table
+
+rowspan: specifies the number of rows a cell should span
+colspan: specifies the number of columns a cell should span
+
+cellpadding: specifies the space between the cell content and its border
+cellspacing: specifies the space between cells in a table
+align: specifies the alignment of the content in a cell (left, right, center)
+width: specifies the width of the table or a cell
+height: specifies the height of the table or a cell
+
+<!-- Pseudo classes and pseudo elements -->
+<!-- Pseudo classes and pseudo elements are used in CSS to apply styles based on the state of an element or its position in the document. -->
+<!-- Pseudo classes are used to style an element based on its state, such as when it is hovered over or focused. Pseudo elements are used to style a specific part of an element, such as the first letter or line of a paragraph. -->
+
+pseudo element and pseudo class
+
+pseudo element:
+::first-letter
+::first-line
+::selection
+::before
+::after
+::marker
+
+
+pseudo class:
+:focus
+:hover
+:active
+:visited
+:link
+
+anchor tag and its attributes:
+href: specifies the URL of the page the link goes to
+target: specifies where to open the linked document
+rel: specifies the relationship between the current document and the linked document
+
+
+
